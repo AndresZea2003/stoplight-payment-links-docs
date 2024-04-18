@@ -366,6 +366,21 @@
               "application/json": {
                 "schema": {
                   "type": "object",
+                  "required": [
+                    "id",
+                    "status",
+                    "url",
+                    "expiration_date",
+                    "name",
+                    "reference",
+                    "description",
+                    "total_payments",
+                    "available_payments",
+                    "payment_expiration",
+                    "currency",
+                    "amount",
+                    "site"
+                  ],
                   "properties": {
                     "id": {
                       "type": "integer",
@@ -449,6 +464,14 @@
                     "site": {
                       "type": "object",
                       "description": "Informacion del sitio asociado al link de pago",
+                      "required": [
+                        "id",
+                        "name",
+                        "currencies",
+                        "default_currency",
+                        "default_country",
+                        "locale"
+                      ],
                       "properties": {
                         "id": {
                           "type": "integer",
@@ -463,10 +486,6 @@
                           "examples": [
                             "Ebus PFKR 2"
                           ]
-                        },
-                        "display_name": {
-                          "type": "string",
-                          "description": "Nombre para mostrar del sitio"
                         },
                         "currencies": {
                           "type": "array",
@@ -499,15 +518,7 @@
                             "ES"
                           ]
                         }
-                      },
-                      "required": [
-                        "id",
-                        "name",
-                        "currencies",
-                        "default_currency",
-                        "default_country",
-                        "locale"
-                      ]
+                      }
                     },
                     "payments": {
                       "type": "array",
@@ -602,22 +613,7 @@
                         }
                       }
                     }
-                  },
-                  "required": [
-                    "id",
-                    "status",
-                    "url",
-                    "expiration_date",
-                    "name",
-                    "reference",
-                    "description",
-                    "total_payments",
-                    "available_payments",
-                    "payment_expiration",
-                    "currency",
-                    "amount",
-                    "site"
-                  ]
+                  }
                 }
               }
             }
