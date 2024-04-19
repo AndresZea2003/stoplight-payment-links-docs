@@ -16,16 +16,15 @@ La API de Link de Pagos de Placetopay proporciona una interfaz de programación 
 6. **Proceso de Pago Seguro:** En "WebCheckout", el usuario completa el proceso de pago de manera segura. Toda la información relacionada con el pago, como el monto y la descripción, se carga automáticamente en el proceso de pago para que el usuario pueda realizar la transacción de manera eficiente y precisa.
 7. **Confirmación del Pago:** Después de completar el pago de manera exitosa, el usuario recibe una confirmación y un recibo de la transacción. Simultáneamente, se actualiza el estado del enlace de pago en la plataforma de "MICROSITIOS" para reflejar el pago realizado.
 
-sequenceDiagram
-    autonumber
-    Alice->>John: Hello John, how are you?
-    loop Healthcheck
-        John->>John: Fight against hypochondria
-    end
-    Note right of John: Rational thoughts!
-    John-->>Alice: Great!
-    John->>Bob: How about you?
-    Bob-->>John: Jolly good!
+
+```mermaid
+flowchart TD
+    A[Creación del Enlace de Pago] -->|Enlace Temporal generado| B[Acceso al Enlace Temporal]
+    B --> C[Visualización de la Información del Pago]
+    C -->|Proceso de Pago Seguro| D[Confirmación del Pago]
+    D --> E{Fin}
+```
+
 
 ## Objetivo
 El objetivo principal de esta documentación es proporcionar a los desarrolladores una guía completa sobre cómo utilizar la API de Link de Pagos de Placetopay para satisfacer las necesidades de integración de sus aplicaciones. Aquí encontrarás información detallada sobre los endpoints disponibles, los métodos de autenticación requeridos, ejemplos de uso y más.
