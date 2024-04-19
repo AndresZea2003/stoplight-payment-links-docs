@@ -17,19 +17,6 @@ La API de Link de Pagos de Placetopay proporciona una interfaz de programación 
 7. **Confirmación del Pago:** Después de completar el pago de manera exitosa, el usuario recibe una confirmación y un recibo de la transacción. Simultáneamente, se actualiza el estado del enlace de pago en la plataforma de "MICROSITIOS" para reflejar el pago realizado.
 
 
-
-
-```mermaid
-sequenceDiagram
-    autonumber
-    Usuario->>API: Creación del Enlace de Pago
-    API-->>Usuario: Enlace Temporal generado
-    Usuario->>API: Acceso al Enlace Temporal
-    Usuario->>API: Visualización de la Información del Pago
-    Usuario->>API: Proceso de Pago Seguro
-    Usuario->>API: Confirmación del Pago
-```
-
 ```mermaid
 sequenceDiagram
     autonumber
