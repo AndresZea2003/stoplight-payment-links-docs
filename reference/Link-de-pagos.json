@@ -155,9 +155,12 @@
                       ]
                     }
                   },
-                  "adittional": {
+                  "additional": {
                     "type": "object",
                     "description": "Campos adicionales para link de pago",
+                    "x-stoplight": {
+                      "id": "mk9s930pmeg1e"
+                    },
                     "properties": {
                       "name": {
                         "type": "string",
