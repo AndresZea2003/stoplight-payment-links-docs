@@ -39,10 +39,11 @@ El objetivo principal de esta documentación es proporcionar a los desarrollador
 Esta documentación está dirigida a desarrolladores de software y equipos de ingeniería interesados en integrar la funcionalidad de pagos en línea de Placetopay en sus aplicaciones. Se espera que los usuarios tengan conocimientos básicos de desarrollo de software y estén familiarizados con conceptos como API REST y autenticación HTTP.
 
 ## Funcionalidades
-- [Autenticación](https://placetopay-api.stoplight.io/docs/payment-links-docs/y9sjfrpqghub7-autenticacion)
-- [Creación de un link](https://placetopay-api.stoplight.io/docs/payment-links-docs/7hzkts3nksm2l-crear-un-link-de-pago)
-- [Consulta de un link](https://placetopay-api.stoplight.io/docs/payment-links-docs/08ix4elnc4kxf-consultar-un-link-de-pago)
-- [Inactivación de un link](https://placetopay-api.stoplight.io/docs/payment-links-docs/tz6ngh6jotshk-desactivar-un-link-de-pago-en-desarrollo)
+Consulta como usar cada funcionalidad en el apartado de API - Link de pagos
+
+- Creación de un link
+- Consulta de un link
+- Inactivación de un link
 
 
 > #### Version Piloto

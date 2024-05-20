@@ -701,7 +701,7 @@
         }
       ],
       "post": {
-        "summary": "Desactivar un link de pago ( En desarrollo )",
+        "summary": "Desactivar un link de pago",
         "tags": [],
         "responses": {
           "200": {
