@@ -5,7 +5,7 @@
   },
   "info": {
     "version": "1.0",
-    "title": "API para Link de pagos",
+    "title": "Link de pagos",
     "description": "La API de PlaceToPay para enlaces de pagos permite a los comerciantes crear enlaces de pago personalizados que los clientes pueden utilizar para realizar pagos de productos y servicios de forma segura. Los enlaces de pago se pueden personalizar con detalles específicos de la transacción. Tambien ofrece la posibilidad de consultar la información de un link que ha sido creado previamente para conocer el estado de las transacciones realizadas a través de este."
   },
   "servers": [
