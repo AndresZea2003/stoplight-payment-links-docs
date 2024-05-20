@@ -11,8 +11,6 @@ paths:
   /api/microsites:
     post:
       summary: Create an open/closed Microsite
-      tags:
-        - microsite
       responses:
         '201':
           $ref: '#/components/responses/Status - OK'
