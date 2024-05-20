@@ -2,8 +2,8 @@ openapi: 3.0.0
 x-stoplight:
   id: 77vbitm5d3ufw
 info:
-  title: Microsites
   version: '1.0'
+  title: Microsites
   contact: ''
 servers:
   - url: 'https://dev.placetopay.com/microsites'
