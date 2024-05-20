@@ -291,7 +291,7 @@
         }
       }
     },
-    "/api/payment-link/{link}": {
+    "/api/payment-link/{link_id}": {
       "post": {
         "summary": "Consultar un link de pago",
         "description": "Utiliza este endpoint para consultar links de pagos que hayan sido creados previamente\r\n\r\n**Nota:** Solo te sera posible consultar links de pago asociados a tu sitio",
@@ -677,23 +677,25 @@
         "x-stoplight": {
           "id": "08ix4elnc4kxf"
         }
-      }
-    },
-    "/api/payment-link/disable/{link}": {
+      },
       "parameters": [
         {
           "schema": {
             "type": "string"
           },
-          "name": "link",
+          "name": "link_id",
           "in": "path",
           "required": true
-        },
+        }
+      ]
+    },
+    "/api/payment-link/disable/{link_id}": {
+      "parameters": [
         {
           "schema": {
             "type": "string"
           },
-          "name": "link",
+          "name": "link_id",
           "in": "path",
           "required": true
         }
