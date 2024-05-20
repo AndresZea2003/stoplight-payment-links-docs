@@ -2,9 +2,7 @@
 stoplight-id: 6o1ke2ddwwgo1
 ---
 
-# Placetopay Microsites API
-
-## Introduction
+# Introduction
 
 The Placetopay Microsites API enables the creation and management of microsites. These microsites can be either open or closed and are designed for specific users of the microsites API. The API offers a robust and secure interface for creating, authenticating, and managing microsites.
 
