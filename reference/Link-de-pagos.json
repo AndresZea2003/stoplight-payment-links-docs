@@ -77,6 +77,14 @@
                       }
                     }
                   },
+                  "notificationUrl": {
+                    "type": "string",
+                    "x-stoplight": {
+                      "id": "6c22lanni74o6"
+                    },
+                    "example": "https://my-webhook.com",
+                    "description": "URL a donde se enviará la notificación de los cambios de estado y pagos realizados en el link de pago"
+                  },
                   "locale": {
                     "type": "string",
                     "enum": [
